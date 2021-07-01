@@ -1,0 +1,157 @@
+.home , .home_products, .home_box{
+    width: 100%;
+    height: auto;
+}
+.imagetitle{
+    width: 100%;
+    height: 700px;
+}
+.home_title{
+    width: 100%;
+    padding: 20px 100px;
+    text-align: center;
+    color: red;
+}
+.home_box{
+    padding: 30px 80px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.home_item{
+    width: 20%;
+    height: 350px;
+    padding: 10px 13px 0 13px;
+    display: flex;
+    flex-flow: column;
+}
+.home_item_conten{
+    width: 100%;
+    height: 100%;
+}
+.home_item_image{
+    width: 100%;
+    height: 75%;
+    position: relative;
+    transition: .5s ease;
+}
+.home_item_image img{
+    opacity: 1;
+}
+.home_item_image i{
+    display: inline-block;
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    opacity: 0;
+    border: none;
+    outline: none;
+    transition: .5s ease;
+
+}
+.home_item_image i{
+    font-size: 50px;
+    color: #ff9800;
+
+}
+.home_item_image i:hover{
+    color: rgba(255, 20, 20, 0.966);
+}
+.home_item_image:hover img{
+    opacity: 0.4;
+}
+.home_item_image:hover i{
+    opacity: 1;
+}
+.home_item_caption{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+}
+.where_store{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: auto;
+}
+.where_store > div{
+    padding: 10px;
+    width: 30%;
+    border-bottom: 1px dotted gray;
+}
+.where_store > div ul{
+    padding: 10px;
+}
+.tutorial{
+    width: 100%;
+    padding: 5px 29%;
+}
+.tutorial ul{
+    padding: 10px 30px;
+}
+.tutorial ul li{
+    list-style-type: square;
+    padding: 2px;
+}
+/* responsive cho trang homeproducts */
+@media only screen and (max-width: 1200px){
+    .home_item{
+        height: 300px;
+        padding: 10px 10px 0 10px;
+    }
+    .home_box{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .home_item{
+        width: 50%;
+        height: 450px;
+    }
+    .imagetitle{
+        height: 400px;
+    }
+    .home_title{
+        padding: 20px 10px;
+    }
+    .where_store > div{
+        width: 50%;
+    }
+    .tutorial{
+        padding: 5px 20%;
+    }
+    .tutorial ul{
+        padding: 10px 30px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .home_item{
+        height: 400px;
+    }
+    .imagetitle{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .home_item{
+        width: 50%;
+        height: 300px;
+        padding: 10px 10px 0 10px;
+    }
+    .where_store > div{
+        width: 100%;
+    }
+  
+}
+@media only screen and (max-width: 450px){
+    .home_item{
+        width: 50%;
+        height: 250px;
+        padding: 10px 4px 0 4px;
+    }
+    .tutorial{
+        padding: 5px 10px;
+    }
+}

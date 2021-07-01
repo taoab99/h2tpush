@@ -1,0 +1,130 @@
+.home_box_cart{
+    padding: 30px 80px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.cart{
+    width: 65%;
+    min-height: 10px;
+}
+.tr_cart{
+    height: 100px;
+}
+.cart_image{
+    width: 15%;
+    height: 100px;
+    padding: 10px;
+}
+.cart_image > img{
+    height: 100%;
+}
+.cart_items{
+    width: 55%;
+    padding: 0 10px;
+}
+.cart_items h2, p{
+    font-size: 16px;
+    margin: 0;
+}
+.cart_items button {
+    float: left;
+    background: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    color: #abafb2;
+    height: 25px;
+    padding: 0;
+    text-align: center;
+    width: 25px;
+    border: 1px solid #dadbdd;
+    outline: none;
+}
+.cart_items span{
+    display: block;
+    float: left;
+    background: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    color: #abafb2;
+    height: 25px;
+    padding: 0;
+    text-align: center;
+    width: 45px;
+    border: 1px solid #dadbdd;
+}
+.cart_price{
+    width: 20%;
+}
+.cart_delete{
+    width: 5%;
+}
+.total_price_cart{
+    width: 35%;
+    height: 230px;
+    position: sticky;
+    top: 70px;
+    padding: 10px;
+    border: 1px dotted #dfe0e1;
+}
+.total_price_cart span{
+    float: right;
+    color: red;
+}
+.infocart{
+    padding: 10px;
+    border-top: 1px dotted #dfe0e1;
+    border-bottom: 1px dotted #dfe0e1;
+}
+.h2titlecart{
+    padding: 10px;
+}
+.h2titlecart > h2{
+    font-size: 20px;
+}
+.paycart{
+    width: 100%;
+}
+.paycart > button{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;text-align: center;
+    background-color: #e00707;
+    border-radius: 5px;
+    border: 0.1px dotted #e00707;
+    outline: none;
+    margin-top: 10px;
+    color: white;
+}
+.td_remote{
+    padding: 60px 0px 0px 0px;
+}
+.td_align{
+    padding: 60px 0px 0px 0px;
+    font-weight: bold;
+    color: red;
+}
+@media only screen and (max-width: 991px){
+    .home_box_cart{
+        padding: 30px 10px;
+    }
+    .cart_image{
+        padding: 10px 0;
+    }
+}
+/* @media only screen and (max-width: 768px){
+   
+} */
+@media only screen and (max-width: 600px){
+    .home_box_cart{
+        flex-flow: column wrap;
+    }
+    .cart, .total_price_cart{
+        width: 100%;
+    }
+    .cart_items h2{
+        font-size: 14px;
+    }
+}
+/* @media only screen and (max-width: 450px){
+    
+} */

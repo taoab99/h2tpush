@@ -1,0 +1,5 @@
+export const LIST_ALL = 'LIST_ALL';
+export const TOGGLEFORM = 'TOGGLEFORM';
+export const ADDTOCART = 'ADDTOCART';
+export const TANGGIAMSOLUONG = 'TANGGIAMSOLUONG';
+export const XOASANPHAM = 'XOASANPJAM';
