@@ -1,7 +1,7 @@
 {
   "name": "h2tshop",
   "version": "0.1.0",
-  "homepage": "https://taoab99.github.io/frondenth2ttt/",
+  "homepage": "https://taoab99.github.io/h2tpush",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
